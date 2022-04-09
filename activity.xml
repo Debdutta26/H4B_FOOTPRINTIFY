@@ -1,28 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#B7D14E">
+    android:background="#FFFFFF">
     <!-- To show pictures along with questions-->
     <!-- to show questions on screen -->
     <!--to show buttons-->
 
     <ImageView
         android:id="@+id/myimage"
-        android:layout_width="270dp"
-        android:layout_height="190dp"
-        android:src="@drawable/ic_launcher_foreground"
+        android:layout_width="349dp"
+        android:layout_height="244dp"
+        android:src="@drawable/ic_launcher_background"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="185dp" />
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="184dp" />
 
     <TextView
         android:id="@+id/answer_text_view"
-        android:layout_width="332dp"
-        android:layout_height="108dp"
+        android:layout_width="347dp"
+        android:layout_height="107dp"
         android:background="@color/purple_200"
         android:padding="20dp"
         android:text="FOOTPRINTIFY"
@@ -30,8 +29,8 @@
         android:textColor="@color/black"
         android:textSize="42dp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="32dp" />
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="43dp" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -46,71 +45,71 @@
 
     <Button
         android:id="@+id/Option_A_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="162dp"
+        android:layout_height="79dp"
         android:backgroundTint="@color/teal_200"
         android:text="Option A"
         android:textSize="20sp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="444dp" />
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="463dp" />
 
     <Button
         android:id="@+id/Option_B_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="176dp"
+        android:layout_height="79dp"
         android:backgroundTint="@color/teal_200"
         android:text="Option B"
         android:textSize="20sp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="262dp"
-        tools:layout_editor_absoluteY="444dp" />
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="463dp" />
 
     <Button
         android:id="@+id/Option_C_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="74dp"
         android:backgroundTint="@color/teal_200"
         android:text="Option C"
         android:textSize="20sp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="545dp" />
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="581dp" />
 
     <Button
         android:id="@+id/Option_D_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="174dp"
+        android:layout_height="72dp"
         android:backgroundTint="@color/teal_200"
         android:text="Option D"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="262dp"
-        tools:layout_editor_absoluteY="545dp" />
+        tools:layout_editor_absoluteX="277dp"
+        tools:layout_editor_absoluteY="581dp" />
 
     <Button
         android:id="@+id/Next_Button"
-        android:layout_width="99dp"
-        android:layout_height="45dp"
+        android:layout_width="183dp"
+        android:layout_height="51dp"
         android:backgroundTint="@color/teal_200"
         android:text="Next"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="273dp"
-        tools:layout_editor_absoluteY="631dp" />
+        tools:layout_editor_absoluteX="284dp"
+        tools:layout_editor_absoluteY="721dp" />
 
     <Button
         android:id="@+id/Previous_Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="183dp"
+        android:layout_height="51dp"
         android:backgroundTint="@color/teal_200"
         android:text="Previous"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="628dp" />
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="721dp" />
     app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.057"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.815" />
+    app:layout_constraintHorizontal_bias="0.057"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.815" />
 
 </android.support.constraint.ConstraintLayout>
