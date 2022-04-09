@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#B7D14E">
+    android:background="#FFFFFF">
     <!-- To show pictures along with questions-->
     <!-- to show questions on screen -->
     <!--to show buttons-->
@@ -14,7 +14,7 @@
         android:id="@+id/myimage"
         android:layout_width="270dp"
         android:layout_height="190dp"
-        android:src="@drawable/ic_launcher_foreground"
+        android:src="@drawable/ic_launcher_background"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="70dp"
         tools:layout_editor_absoluteY="185dp" />
