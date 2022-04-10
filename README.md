@@ -5,5 +5,4 @@ Theme of the project : Sustainability.
 
 Team Members : -Arunima Chatterjee 
                -Debdutta Roy Chowdhury 
-               -Khushi Gowda
                -Supravo Sarkar
