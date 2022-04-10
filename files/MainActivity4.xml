@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+    android:background="#FFFFFF">
+    <!-- To show pictures along with questions-->
+    <!-- to show questions on screen -->
+    <!--to show buttons-->
+
+    <ImageView
+        android:id="@+id/Water"
+        android:layout_width="464dp"
+        android:layout_height="248dp"
+        android:src="@drawable/ic_launcher_background"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <TextView
+        android:id="@+id/answer_text_view"
+        android:layout_width="347dp"
+        android:layout_height="107dp"
+        android:background="#b7d14e"
+        android:padding="20dp"
+        android:text="WATER"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="42dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+    <!--Option A-->
+    <!--Option B-->
+    <!--Option C-->
+    <!--Option D-->
+    <!--Previous-->
+    <!--Next-->
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="450dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="456dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton_A"
+            android:layout_width="440dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#b7d14e"
+            android:onClick="radioButtonhandler"
+            android:text="Wash Clothes 7 times a week"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:ignore="MissingConstraints" />
+
+        <RadioButton
+            android:id="@+id/radioButton_B"
+            android:layout_width="440dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#b7d14e"
+            android:onClick="radioButtonhandler"
+            android:text="Wash Clothes 3 times a week"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:ignore="MissingConstraints" />
+
+        <RadioButton
+            android:id="@+id/radioButton_C"
+            android:layout_width="440dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#b7d14e"
+            android:onClick="radioButtonhandler"
+            android:text="Wash Clothes once a week"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:ignore="MissingConstraints" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="466dp"
+        android:layout_height="77dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="688dp">
+
+        <RadioButton
+            android:id="@+id/RadioButton_Previous"
+            android:layout_width="230dp"
+            android:layout_height="80dp"
+            android:background="#b7d14e"
+            android:onClick="radioButtonhandler"
+            android:text="Previous"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/RadioButton_Next"
+            android:layout_width="230dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="183dp"
+            android:background="#b7d14e"
+            android:onClick="radioButtonhandler"
+            android:text="Next"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>
